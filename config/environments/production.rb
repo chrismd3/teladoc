@@ -3,7 +3,6 @@ Rails.application.configure do
 
   #host is Elastic Beanstalk
   config.hosts << "teladoc-env.zaa2rzep5k.us-east-1.elasticbeanstalk.com"
-  
   # Code is not reloaded between requests.
   config.cache_classes = true
 

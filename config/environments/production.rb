@@ -1,6 +1,9 @@
 Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
 
+  #host is Elastic Beanstalk
+  config.hosts << "teladoc-env.zaa2rzep5k.us-east-1.elasticbeanstalk.com"
+  
   # Code is not reloaded between requests.
   config.cache_classes = true
 

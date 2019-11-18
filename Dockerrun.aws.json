@@ -1,0 +1,12 @@
+{
+    "AWSEBDockerrunVersion": "1",
+    "Image": {
+        "Name": "522606549958.dkr.ecr.us-east-1.amazonaws.com/teladoc:latest"
+    },
+    "Ports": [
+        {
+          "ContainerPort": 3000,
+          "HostPort": 3000
+        }
+      ]
+}
